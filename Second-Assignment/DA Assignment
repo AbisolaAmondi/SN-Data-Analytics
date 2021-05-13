@@ -1,0 +1,62 @@
+Second Assignment - 
+
+1. print(int("1000"))
+2. print(int(3.764))
+3. print(str("$") + str(99.45) + " dollars")
+4. The type function shows the type or class of an object.
+5. A Boolean is a data type and its two possible values are true and false.
+6. The technical name of the % operator is Modulo and prints out the remainder of the
+   division of two objects/data/values
+7. fancy_name = "Abisola"
+   print(fancy_name)
+8. print("Let me help you convert hours to seconds")
+   seconds = 60
+   hours = int(input("Enter the number of hours"))
+   print("The conversion is", seconds * hours, "seconds")
+9. def easy_money():
+       print(int(100))
+   
+   easy_money()
+
+
+def best_food_ever():
+    print(str("Sushi"))
+   
+best_food_ever()
+
+
+def convert_to_currency(int):
+    print(str("$") + str(int))
+
+convert_to_currency(5)
+
+10. def string_adder(a, b):
+        print(a,b)
+
+    string_adder("Abisola", "Amondi")
+
+    
+    def string_adder():
+        print()
+
+    string_adder()
+
+
+11. def long_word(a):
+        length = len(a)
+        result = length> 7
+        return result
+
+    Print(long_word("excellent"))
+        
+12. def same_first_and_last_letter(a):
+        first_letter = "abisola"[0]
+        last_letter = "abisola"[-1]
+        result = first_letter == last_letter
+        return result
+    print(same_first_and_last_letter("abisola"))
+
+13. def first_three_characters(a):
+        result = "Amondi"[0:3]
+        return result
+    print(first_three_characters("Amondi"))
