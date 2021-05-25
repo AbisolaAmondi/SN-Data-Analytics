@@ -1,0 +1,60 @@
+15 Different String Methods
+
+- Find method
+browser = "Data Analytics"
+print(browser.find("A"))
+
+- Index method
+browser = "Data Analytics"
+print(browser.find("A"))
+
+- Startswith method
+money = "I have so much dollars"
+print(money.startswith("I"))
+
+- Endswith method
+money = "I have so much dollars"
+print(money.endswith("ars"))
+
+- Count method
+word = "singing"
+print(word.count("i"))
+
+- Capitlize method
+food = "my favourite meal is rice"
+print(food.capitalize())
+
+- Title method
+food = "my favourite meal is rice"
+print(food.title())
+
+- Lower method
+food = "MY FAVOURITE MEAL IS RICE"
+print(food.lower())
+
+- Upper method
+food = "my favourite meal is rice"
+print(food.upper())
+
+- Swapcase method
+food = "My faVOURite meAl is riCE"
+print(food.swapcase())
+
+- Boolean method
+print("food".islower())
+
+- lstrip method
+school = "    unilag    "
+print(school.lstrip())
+
+- rstrip method
+school = "    unilag    "
+print(school.rstrip())
+
+- Strip method
+school = "    unilag    "
+print(school.strip())
+
+- Replace method
+capital = "Port Harcourt"
+print(capital.replace(" ", "-"))
