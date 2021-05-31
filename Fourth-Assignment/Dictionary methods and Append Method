@@ -1,0 +1,101 @@
+#ASSIGNMENT 1
+
+1. words = ("John", "Boat", "Tank")
+   letters= 4
+
+   words_letters = dict.fromkeys(words, letters)
+
+   print(words_letters)
+
+2. raw_food = {
+       "Protein": ["Beans", "Fish", "Eggs"]
+       "Carbohydrate": ["Rice", "Yam", "Bread"]
+       "Fats_oil": ["Palmoil"]
+   }
+
+   print(raw_food.get("Protein"))
+
+3. presidents = {
+       "first": "Obasanjo",
+       "second": "Yaradua",
+       "third": "Goodluck",
+       "fourth": "Buhari"
+   }
+
+   for key, value in presidents.items():
+       print(f"The {key} Nigerian civilian president is 
+       {value}.")
+
+
+4. presidents = {
+       "first": "Obasanjo",
+       "second": "Yaradua",
+       "third": "Goodluck",
+       "fourth": "Buhari"
+   }
+
+   print(presidents.keys())
+
+5. presidents = {
+       "first": "Obasanjo",
+       "second": "Yaradua",
+       "third": "Goodluck",
+       "fourth": "Buhari"
+   }
+
+   presidents.pop("fourth")
+   print(presidents)
+
+6. presidents = {
+       "first": "Obasanjo",
+       "second": "Yaradua",
+       "third": "Goodluck",
+       "fourth": "Buhari"
+   }
+
+   presidents.popitem()
+   print(presidents)
+
+7. presidents = {
+       "first": "Obasanjo",
+       "second": "Yaradua",
+       "third": "Goodluck",
+       "fourth": "Buhari"
+   }
+
+   presidents.setdefault("fifth", "Tinubu")
+   print(presidents)
+
+8. presidents = {
+       "first": "Obasanjo",
+       "second": "Yaradua",
+       "third": "Goodluck",
+       "fourth": "Buhari"
+   }
+
+   vice_presidents = {
+       "first": "Atiku",
+       "second": "Goodluck",
+       "third": "Osinbajo"
+   }
+
+   presidents.update(vice_presidents)
+   print(presidents)
+
+9. presidents = {
+       "first": "Obasanjo",
+       "second": "Yaradua",
+       "third": "Goodluck",
+       "fourth": "Buhari"
+   }
+
+   print(presidents.values())
+
+
+#ASSIGNMENT 2
+
+1. fruit = ["apple"]
+   apple = ["apple1", "apple2", "apple3", "apple4"]
+
+   fruit.append(apple)
+   print(fruit)
